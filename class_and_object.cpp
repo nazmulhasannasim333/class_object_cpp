@@ -1,19 +1,20 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-class Student {
-    public :
+class Student
+{
+public:
     char name[100];
     int roll;
     double gpa;
 };
 
-int main(){
-    Student a;
-    char temp[100] = "Nasim";
-    strcpy(a.name, temp);
-    a.roll = 101;
-    a.gpa = 3.75;
+int main()
+{
+    Student a, b;
+    cin >> a.name >> a.roll >> a.gpa;
+    cin >> b.name >> b.roll >> b.gpa;
     cout << a.name << " " << a.roll << " " << a.gpa << endl;
+    cout << b.name << " " << b.roll << " " << b.gpa << endl;
     return 0;
 }

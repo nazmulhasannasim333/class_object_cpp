@@ -1,4 +1,2 @@
-Sakib Ahmed
-101 3.67
-Rakib Ahmed
-102 3.50
+5
+20 30 10 70 40
